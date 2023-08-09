@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: rodacara;    
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  body{
+    width: 100px;
+  }
+  
+  .logo > img{
+    width: 18.6rem;
+    height: auto;
+  }
+  .buscador > input {
+    width: 100%;
+  }
+  #buscador > input{
+    width: 400px;
+}
+  .buscador > svg{
+    position: relative;
+    left: 350px;
+    bottom: 35px;
+  }
+
+  .opcoes {
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    right: 300px;
+  }
+  .atendimento, .conta, .carrinho {
+    margin-bottom: 10px;
+  }
+  .intes{
+    padding: auto;
+  }
+  .intes{
+    position: relative;
+    right: 150px;
+    
+  }
+  li > a {
+    padding: 10px;
+    line-height: 40px;
+    width: auto;
+    justify-content: space-evenly;
+  }
+.rodas{
+
+  width: 800px;
+} 
+  .cliks-01 {
+    padding-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+    display: none;
+  }
+
+  .cliks-01 > a {
+    padding: 5px;
+  }
+
+  .cliks-02 {
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: none;
+  }
+  #coluna1, #coluna2, #coluna3, #coluna4, #coluna5, #coluna6, #coluna7 {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  } 
+  .marcadores {
+    height: auto;
+  }
+
+  #aside-02 {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  body{
+    width: 100px;
+  }
+  .logo > img{
+    width: 8px;
+    height: auto;
+  }
+  .opcoes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .atendimento, .conta, .carrinho {
+    margin-bottom: 10px;
+  }
+
+  .buscador > input {
+    width: 100%;
+  }
+
+  .intes {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  li > a {
+    padding: 10px;
+    line-height: 30px;
+  }
+
+  .cliks-01 {
+    padding-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cliks-01 > a {
+    padding: 5px;
+  }
+
+  .cliks-02 {
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #coluna1, #coluna2, #coluna3, #coluna4, #coluna5, #coluna6, #coluna7 {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  } 
+  .marcadores {
+    height: auto;
+  }
+
+  #aside-02 {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
